@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 
 def add(a,b):
     return a + b
@@ -9,5 +9,5 @@ def test_add():
 
 # uncomment the following test in step 5
 def test_subtract():
-    assert np.subtract(2, 3) == -1
+    assert subtract(2, 3) == -1
 
